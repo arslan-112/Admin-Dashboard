@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+.header{
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 90px 200px;
+    background-color: aqua;
+}
+
+.rightProfile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: blueviolet;
+}
+.bottom-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column: 1/3;
+    background-color: darksalmon;
+}
+.avatar{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr; 
+    background-color: green;
+    
+    justify-content: start;
+}
+.header-buttons{
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.sidebar ul li img {
+    width: 30px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.main-content .card-images img{
+    width: 21px;
+}
